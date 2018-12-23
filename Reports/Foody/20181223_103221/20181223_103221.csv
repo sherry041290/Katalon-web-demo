@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Foody,Firefox 64.0,,2018-12-23 10:32:29,2018-12-23 10:33:15,46.135s,PASSED
+,,,,,,
+Test Cases/Login-Foody,Firefox 64.0,,2018-12-23 10:32:30,2018-12-23 10:32:47,17.734s,PASSED
+"openBrowser("""")",Firefox 64.0,,2018-12-23 10:32:31,2018-12-23 10:32:37,6.589s,PASSED
+"navigateToUrl(""https://www.foody.vn/ha-noi"")",Firefox 64.0,,2018-12-23 10:32:37,2018-12-23 10:32:45,7.579s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_a im n ung m thc n g  u ti H N/span_ng nhp""))",Firefox 64.0,,2018-12-23 10:32:45,2018-12-23 10:32:45,0.485s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Login/input_hoc bng email_Email""), ""beso04"")",Firefox 64.0,,2018-12-23 10:32:45,2018-12-23 10:32:47,1.271s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Login/input_hoc bng email_Password""), ""4nvbrPglk7k="")",Firefox 64.0,,2018-12-23 10:32:47,2018-12-23 10:32:47,0.179s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Login/input_Qun mt khu_bt_submit""))",Firefox 64.0,,2018-12-23 10:32:47,2018-12-23 10:32:47,0.704s,PASSED
+,,,,,,
+Test Cases/Select Restaurant,Firefox 64.0,,2018-12-23 10:32:48,2018-12-23 10:33:15,27.805s,PASSED
+"openBrowser("""")",Firefox 64.0,,2018-12-23 10:32:48,2018-12-23 10:32:53,5.349s,PASSED
+"navigateToUrl(""https://www.foody.vn/ha-noi"")",Firefox 64.0,,2018-12-23 10:32:53,2018-12-23 10:33:01,7.868s,PASSED
+"click(findTestObject(""Object Repository/Select Restaurant/Page_a im n ung m thc n g  u ti H N/span_Tr Sa Heytea - Ng T S""))",Firefox 64.0,,2018-12-23 10:33:01,2018-12-23 10:33:01,0.416s,PASSED
+"switchToWindowTitle(""Trà Sữa Heytea - Ngã Tư Sở ở Quận Đống Đa, Hà Nội | Đặt Giao Hàng | Foody.vn"")",Firefox 64.0,,2018-12-23 10:33:01,2018-12-23 10:33:02,0.323s,PASSED
+"click(findTestObject(""Object Repository/Select Restaurant/Page_Tr Sa Heytea - Ng T S  Qun ng/span_""))",Firefox 64.0,,2018-12-23 10:33:02,2018-12-23 10:33:06,4.082s,PASSED
+"click(findTestObject(""Object Repository/Select Restaurant/Page_Tr Sa Heytea - Ng T S  Qun ng/a_ng nhp""))",Firefox 64.0,,2018-12-23 10:33:06,2018-12-23 10:33:07,1.114s,PASSED
+"setText(findTestObject(""Object Repository/Select Restaurant/Page_Login/input_hoc bng email_Email""), ""sherry9999"")",Firefox 64.0,,2018-12-23 10:33:07,2018-12-23 10:33:07,0.141s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Select Restaurant/Page_Login/input_hoc bng email_Password""), ""aeHFOx8jV/A="")",Firefox 64.0,,2018-12-23 10:33:07,2018-12-23 10:33:07,0.121s,PASSED
+"click(findTestObject(""Object Repository/Select Restaurant/Page_Login/input_Qun mt khu_bt_submit""))",Firefox 64.0,,2018-12-23 10:33:07,2018-12-23 10:33:08,0.769s,PASSED
+"click(findTestObject(""Object Repository/Select Restaurant/Page_Tr Sa Heytea - Ng T S  Qun ng/span_""))",Firefox 64.0,,2018-12-23 10:33:08,2018-12-23 10:33:13,5.287s,PASSED
+"click(findTestObject(""Object Repository/Select Restaurant/Page_Tr Sa Heytea - Ng T S  Qun ng/span_""))",Firefox 64.0,,2018-12-23 10:33:13,2018-12-23 10:33:14,0.396s,PASSED
+closeBrowser(),Firefox 64.0,,2018-12-23 10:33:14,2018-12-23 10:33:15,1.597s,PASSED
