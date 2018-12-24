@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://www.foody.vn/')
+
 WebUI.click(findTestObject('Object Repository/Login-Failed/Page_a im n ung m thc n g  u ti H N/span_ng nhp'))
 
 WebUI.setText(findTestObject('Object Repository/Login-Failed/Page_Login/input_hoc bng email_Email'), 'sherry9999')
